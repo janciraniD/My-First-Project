@@ -84,6 +84,7 @@ section{
     text-align:center;
     background:#2A1C13;
     background: linear-gradient(#2A1C13,#9B6842);
+    box-shadow: 0 0 0 4px #9B6842;
     padding:20px;
     border-radius:12px;
     width:140px;
