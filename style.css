@@ -1,0 +1,282 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#18110B;
+    color:white;
+}
+
+section{
+    padding:70px 10%;
+}
+
+/* BUTTON */
+
+.btn{
+    background:#C28B5B;
+    background: radial-gradient(#2A1C13,#9B6842);
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:30px;
+    cursor:pointer;
+    margin-top:20px;
+    margin-right:10px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#9B6842;
+    background: linear-gradient(#9B6842,#2A1C13);
+}
+
+
+/* HERO */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:50px;
+}
+
+.hero-content h3{
+    color:#C28B5B;
+    margin-bottom:15px;
+    font-style: oblique;
+}
+
+.hero-content h1{
+    font-size:60px;
+    line-height:1.2;
+}
+
+.hero-content span{
+    font-style: oblique;
+    color:#C28B5B;
+}
+
+.hero-content p{
+    margin:20px 0;
+    color:#d6d6d6;
+    margin-top: 5px;
+}
+
+.hero-image img{
+    width:800px;
+    box-shadow: 0 0 0 4px #9B6842;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+
+.feature-box{
+    display:flex;
+    gap:20px;
+    margin-top:40px;
+}
+
+.feature{
+    text-align:center;
+    background:#2A1C13;
+    background: linear-gradient(#2A1C13,#9B6842);
+    padding:20px;
+    border-radius:12px;
+    width:140px;
+}
+
+.feature i{
+    font-size:30px;
+    color: #9B6842;
+    margin-bottom:10px;
+}
+
+/* ABOUT */
+
+.about{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+}
+
+.about-image img{
+    width:800px;
+    height: 300px;
+    border-radius: 20px;
+    background-position: left;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 0 4px #9B6842;
+}
+
+.about-content h3{
+    color:#C28B5B;
+}
+
+.about-content h2{
+    font-size:45px;
+    margin:15px 0;
+    font-style: oblique;
+}
+
+.about-content p{
+    color:#d6d6d6;
+    margin-bottom:20px;
+}
+
+/* GALLERY */
+
+.gallery{
+    text-align:center;
+}
+
+.gallery-headings h3{
+    color:#C28B5B;
+}
+
+.gallery-headings h2{
+    font-size:40px;
+    margin:10px 0 40px;
+    font-style: oblique;
+}
+
+.gallery-box{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    
+}
+
+.card{
+    box-shadow: 0 0 0 4px #9B6842;
+    background:#2A1C13;
+    background: linear-gradient(#9B6842,#2A1C13);
+    padding:20px;
+    border-radius:15px;
+    width:250px;
+}
+
+.card img{
+    width:180px;
+    border-radius: 15px;
+}
+
+.card h5{
+    margin:15px 0;
+}
+
+.card p{
+    color:#d6d6d6;
+    font-size: 15px;
+}
+
+.price{
+    color:#C28B5B;
+    font-weight:bold;
+    margin-top: 10px;
+}
+
+.card i{
+    color: #9B6842;
+    margin-left:20px;
+}
+
+/* SERVICES */
+
+.service-box{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.service-card{
+    box-shadow: 0 0 0 4px #9B6842;
+    background:#2A1C13;
+    background: linear-gradient(#9B6842,#2A1C13);
+    text-align:center;
+    padding:25px;
+    border-radius:15px;
+    width:250px;
+}
+
+.service-card i{
+    font-size:35px;
+    color: #2A1C13;
+    margin-bottom:15px;
+}
+
+.service-card p{
+    color:#d6d6d6;
+}
+
+/* CONTACT */
+
+.contact{
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.contact h3,
+.contact h4{
+    margin-bottom: 20px;
+}
+
+.newsletter input{
+    padding:12px;
+    width:250px;
+    border:none;
+    border-radius:30px;
+    margin-top: 10px;
+}
+
+.quick ul,
+.customer ul{
+    list-style:none;
+}
+
+.quick li,
+.customer li{
+    margin-bottom: 8px;
+}
+
+.quick a,
+.customer a{
+    color:#d6d6d6;
+    text-decoration:none;
+}
+
+.newsletter h3,
+.quick h4,
+.customer h4,
+.contact h4{
+    color: #9B6842;
+}
+
+.quick a:hover,
+.customer a:hover{
+    color:#C28B5B;
+}
+
+.contact-info p{
+    margin-bottom:15px;
+}
+
+.contact-info i{
+    color: #9B6842;
+    margin-right:10px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:10px;
+    background: #9B6842;
+    color:#2A1C13;
+}
