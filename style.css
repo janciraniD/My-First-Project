@@ -281,3 +281,105 @@ footer{
     background: #9B6842;
     color:#2A1C13;
 }
+
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 767px) {
+
+    section {
+        padding: 45px 6%;
+    }
+
+    /* HERO */
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .feature-box {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .feature {
+        width: 120px;
+    }
+
+    /* ABOUT */
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-content h2 {
+        font-size: 35px;
+    }
+
+    /* GALLERY */
+
+    .gallery-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .card img {
+        width: 100%;
+        max-width: 220px;
+    }
+
+    /* SERVICES */
+
+    .service-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .service-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* CONTACT */
+
+    .contact {
+        flex-direction: column;
+        text-align: center;
+        gap: 35px;
+    }
+
+    .newsletter input {
+        width: 75%;
+        max-width: 250px;
+    }
+
+    footer {
+        font-size: 13px;
+    }
+}
